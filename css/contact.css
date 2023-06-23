@@ -1,0 +1,88 @@
+*{
+    font-size: x-large;
+    color: white;
+}
+
+.getIntouch{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+h2{
+    background-color:#949494 ;
+    width: fit-content;
+    padding: .5rem 10rem .5rem 1rem;
+    color: white;
+    margin-left: 8rem;
+}
+
+.contact-div{
+    flex: 1;
+}
+
+.contact-div div{
+    margin: 0 0 0 20rem;
+}
+
+.contact-div div li{
+    margin: 1rem;
+}
+
+
+.email-form{
+    flex: 1;
+}
+
+  .contact-container {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  .contact-info {
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .contact-form input{
+      height: 2rem;
+  }
+
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 70%;
+    border: 2px solid black;
+    background: none;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  .contact-form textarea {
+    height: 120px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .contact-social {
+    margin-top: 2rem;
+  }
+  
+  .contact-social a {
+    color: #333;
+  }
+  

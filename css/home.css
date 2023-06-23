@@ -1,0 +1,37 @@
+html, body{
+    background-color: #5c5c5c;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+p,a{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 80vw;
+    margin: auto;
+    height: fit-content;
+    padding-top: 8rem;
+}
+.cool-stuff{
+    font-size: 8rem;
+    text-shadow: 4px 4px 2px black;
+    transform: rotateZ(10deg) skewX(10deg) skewX(-5deg)  ;
+    /* transform: translateZ(100px) ; */
+}
+.name{
+    font-size: 5rem;
+    font-weight: bold; 
+}
+.tagline{
+    font-size: 3rem;
+    font-weight: bold;
+    color:#949494 ;
+}
+.description{
+    font-size: larger;
+}
+
