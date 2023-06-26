@@ -37,6 +37,7 @@ html, body{
 .container2{
     width: 80vw;
     margin: auto;
+    margin-bottom: 0;
     height: fit-content;
     display: flex;
     flex-direction: row;
@@ -106,3 +107,6 @@ img{
     margin: 1rem 0 0 0 ;
     list-style-type:circle ;
   }
+
+
+ 

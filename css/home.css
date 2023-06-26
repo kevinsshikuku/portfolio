@@ -4,18 +4,50 @@ html, body{
     padding: 0;
     color: white;
 }
-p,a{
+p,a, h2{
     margin: 0;
     padding: 0;
+}
 
+.image{
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    margin-right: 20rem;
+}
+
+
+.image img{
+    width: 100%;
 }
 
 .container{
     width: 80vw;
     margin: auto;
     height: fit-content;
-    padding-top: 8rem;
+    padding-top: 3rem;
 }
+
+
+.skills{
+    background-color: #949494;
+    color: black;
+    font-weight: bolder;
+    height: 6rem;
+    padding: 2rem;
+    margin: auto;
+    width: 77%;
+    margin-top: 3rem;
+}
+
+
+.skills span{
+    margin: 1rem;
+    font-size: larger;
+}
+
 .cool-stuff{
     font-size: 8rem;
     text-shadow: 4px 4px 2px black;
